@@ -1,0 +1,14 @@
+.propertyList{
+    margin-top: 200px;
+    padding: 0 10%;
+}
+.propertyList select{
+    margin-right: 30px;
+    margin-bottom: 50px;
+}
+.propertyCardList{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}

@@ -1,0 +1,21 @@
+.search{
+    background: rgba(255, 255, 255, .7);
+         height: 80px;
+    width: 80%;
+    z-index: 1;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 250px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.select, .input{
+    width: 15%;
+    background-color: #EDEDED;
+    border: #444444 solid 1px;
+    height: 40px;
+    border-radius: 5px;
+    padding: 0 0 0 10px;
+}

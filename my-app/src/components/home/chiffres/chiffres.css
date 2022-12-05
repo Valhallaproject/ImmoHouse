@@ -1,0 +1,15 @@
+.chiffres{
+    text-align: center;
+    padding: 60px 0 60px 0;
+}
+.chiffres h2{
+    font-size: 38px;
+}
+.chiffres h2 span{
+    color: #DA0037;
+}
+.blockChiffres{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}

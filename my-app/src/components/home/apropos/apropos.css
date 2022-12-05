@@ -1,0 +1,30 @@
+.propos{
+    padding-top: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.proposLeft{
+    width: 45%;
+}
+.proposLeft img{
+    width: 100%;
+    border-radius: 15px;
+}
+.proposRight{
+    width: 45%;
+    color: #444444;
+}
+.proposRight h2{
+    font-size: 38px;
+}
+.proposRight h2 span{
+    color: #DA0037;
+}
+.proposRight p{
+    font-size: 20px;
+    line-height: 35px;
+}
+.proposRight ul{
+    font-size: 20px;
+}

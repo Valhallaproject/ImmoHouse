@@ -1,0 +1,28 @@
+.agenceCard{
+    background-color: #EDEDED;
+    width: 18%;
+    padding: 25px;
+    border-radius: 20px;
+}
+.agenceCardImage{
+    width: 100%;
+    height: 200px;
+    border-radius: 15px 15px 0 0;
+    clip-path: polygon(100% 0, 100% 100%, 76% 92%, 0 100%, 0 0);
+}
+.dividerCard{
+    width: 100%;
+    margin: 0 auto;
+    height: 2px;
+    background-color: #171717;
+}
+.phoneCard{
+    display: flex;
+    height: 25px;
+    align-items: center;
+    margin-top: 10px;
+}
+.agenceCardButton{
+    width: 100%;
+    margin-top: 15px;
+}

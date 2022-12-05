@@ -1,0 +1,18 @@
+.propertyCard{
+    width: 30%;
+}
+.propertyImage{
+    height: 300px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.propertyImage p{
+    color: #EDEDED;
+    font-weight: bold;
+    font-size: 24px;
+    top: 80%;
+    position: relative;
+}
+.propertyInfo h3{
+    margin: 0;
+}

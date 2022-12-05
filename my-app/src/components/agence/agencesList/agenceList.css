@@ -1,0 +1,9 @@
+.agenceList{
+    margin-top: 600px !important;
+    margin-bottom: 100px !important;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-around;
+}

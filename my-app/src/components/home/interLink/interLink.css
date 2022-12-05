@@ -1,0 +1,7 @@
+.interLink{
+    display: flex;
+    background-color: #EDEDED;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 80px 10% ;
+}

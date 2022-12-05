@@ -1,0 +1,21 @@
+.footer{
+    background-color: #EDEDED;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 80px 0;
+}
+.footerLink{
+    display: flex;
+    flex-direction: column;
+}
+.footerLink h4{
+    font-size: 22px;
+}
+.footerLink a{
+    color: #444444;
+    font-size: 18px;
+    line-height: 30px;
+}
+.footerLink a:hover{
+    font-weight: bold;
+}

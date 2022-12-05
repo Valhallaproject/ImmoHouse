@@ -1,0 +1,28 @@
+.cardLink{
+    width: 35%;
+    height: 350px;
+    margin-bottom: 60px;
+    border-radius: 15px;
+    padding: 20px;
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: all .5s;
+}
+.cardLink:hover{
+    transform: scale(0.95);
+}
+.cardLinkTitle{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 300px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.cardLinkTitle img{
+    width: 30px;
+    height: 30px;
+}
