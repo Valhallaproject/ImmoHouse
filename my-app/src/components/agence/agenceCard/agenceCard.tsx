@@ -1,7 +1,6 @@
 import React from "react";
 import Phone from "./../../../assets/phone.png"
 import Mail from "./../../../assets/mail.png"
-import Button from "../../common/button/button";
 import "./agenceCard.css";
 
 interface AgenceCardProps {
@@ -13,7 +12,8 @@ interface AgenceCardProps {
 }
 
 const agenceCard = ({ image, city, phone, adresse, code }: AgenceCardProps) => (
-  <div className="agenceCard">
+    
+  <div>
     <div
       className="agenceCardImage"
       style={{
@@ -38,7 +38,6 @@ const agenceCard = ({ image, city, phone, adresse, code }: AgenceCardProps) => (
         <img src={Mail} alt="telephone" />
         <p>Envoyer un mail</p>
       </div>
-      <Button title="En savoir +" link="" className="agenceCardButton"/>
 
     </div>
   </div>

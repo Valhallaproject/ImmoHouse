@@ -5,6 +5,7 @@ import A from "./pages/a"
 import Acheter from "./pages/acheter"
 import Location from "./pages/location"
 import Contact from "./pages/contact";
+import Agence from "./pages/agence";
 
 
 
@@ -18,7 +19,7 @@ function App() {
           <Route path="/acheter" element={<Acheter />} />
           <Route path="/location" element={<Location />} />
           <Route path="/contact" element={<Contact />} />
-
+          <Route path="/agence" element={<Agence />} />
         </Routes>
       </Router>
     </div>
