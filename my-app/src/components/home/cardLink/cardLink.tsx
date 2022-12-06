@@ -10,7 +10,7 @@ interface CardLinkProps {
 }
 
 const CardLink = ({ title, img, link }: PropsWithChildren<CardLinkProps>) => (
-<Link to={link}className="cardLink"
+<Link to={link} className="cardLink" 
     style={{
         backgroundImage: `url(" ${img} ")`,
     }}>

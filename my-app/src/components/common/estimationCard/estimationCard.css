@@ -1,0 +1,20 @@
+.estimationCard{
+    width: 30%;
+    height: 250px;
+    background-color: #EDEDED;
+    padding: 40px;
+    border-radius: 10px;
+    margin-right: 50px;
+    box-shadow: rgb(107 107 107 / 60%) 0px 0px 40px 0px;
+}
+.estimationCard h2{
+    margin: 0;
+    font-size: 28px;
+}
+.estimationCard p{
+    font-size: 20px;
+}
+.estimationAction select{
+    width: 45%;
+    margin-right: 20px;
+}

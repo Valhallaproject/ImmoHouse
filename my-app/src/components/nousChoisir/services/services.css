@@ -1,0 +1,13 @@
+.services{
+    text-align: center;
+    color: #444444;
+    background-color: #EDEDED;
+    padding: 100px ;
+}
+.iconsList{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: center;
+}

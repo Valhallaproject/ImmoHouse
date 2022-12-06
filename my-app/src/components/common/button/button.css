@@ -1,9 +1,14 @@
 button{
     color: #fff ;
-    width: 15%;
+    padding: 10px 20px 10px 20px;
     background-color: #444444;
     border-color: #444444;
-    height: 40px;
     border-radius: 5px;
     cursor: pointer;
+    font-size: 18px;
   }
+button:hover{
+  color: #444 ;
+  background-color: #fff;
+  transition: all 0.5s;
+}

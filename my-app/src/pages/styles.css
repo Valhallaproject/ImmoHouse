@@ -1,37 +1,47 @@
+.contenu {
+  margin-top: 550px;
+}
+
 /*-------Page Agence-------*/
-.agence{
-    margin-top: 600px !important;
-    margin-bottom: 100px !important;
-    margin: 0 auto;
-    width: 80%;
-    display: flex;
-    justify-content: space-around;
+.agence {
+  margin-top: 600px !important;
+  margin-bottom: 100px !important;
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
 }
-.agenceLeft{
-    width: 40%;
-    height: 450px;
-    padding: 20px;
-    border-radius: 10px;
+.agenceLeft {
+  width: 40%;
+  height: 450px;
+  padding: 20px;
+  border-radius: 10px;
 }
-.agenceRight{
-    width: 40%;
-    height: 450px;
-    background-color: #EDEDED;
-    padding: 20px;
-    border-radius: 10px;
+.agenceRight {
+  width: 40%;
+  height: 450px;
+  background-color: #ededed;
+  padding: 20px;
+  border-radius: 10px;
 }
-.agenceRight p{
-    font-size: 20px;
+.agenceRight p {
+  font-size: 20px;
 }
-.agenceRight h3{
-    font-size: 24px;
+.agenceRight h3 {
+  font-size: 24px;
 }
-.agenceHoraire{
-text-align: center;
-width: 100%;
-margin-bottom: 100px;
+.agenceHoraire {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 100px;
 }
-.agenceHoraire p{
-    font-weight: bold;
-    font-size: 20px;
+.agenceHoraire p {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/*-------Page Vendre------*/
+.contenu h1 {
+  color: #444444;
+  text-align: center;
 }

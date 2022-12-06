@@ -1,4 +1,5 @@
 import React, { PropsWithChildren } from "react";
+import ContactCard from "../common/contactCard/contactCard";
 import "./contact.css"
 
 interface ContactProps {
@@ -13,6 +14,7 @@ const Contact = ({ img }: PropsWithChildren<ContactProps>) => (
       backgroundPosition: "center",
     }}
   >
+      <ContactCard title="Vous souhaitez vendre votre bien ?" />
   </div>
 );
 

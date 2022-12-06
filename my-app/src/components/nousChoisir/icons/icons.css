@@ -1,0 +1,19 @@
+.icons{
+    text-align: center;
+    width: 30%;
+    margin-top: 50px;
+    font-size: 20px;
+}
+.circleIcons{
+    border-radius: 50%;
+    border: 3px solid #171717;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.circleIcons img{
+    width: 60px;
+}

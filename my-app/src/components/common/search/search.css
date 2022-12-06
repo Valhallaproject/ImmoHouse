@@ -19,3 +19,9 @@
     border-radius: 5px;
     padding: 0 0 0 10px;
 }
+.submit:hover{
+    color: #444 ;
+    background-color: #fff;
+    transition: all 0.5s;
+  
+}

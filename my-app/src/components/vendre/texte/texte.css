@@ -1,0 +1,16 @@
+.texteVendre{
+    text-align: center;
+    padding: 100px 25% 100px 25%;
+    color: #444444;
+}
+.texteVendre h2{
+    margin: 0;
+    font-size: 28px;
+}
+.texteVendre p{
+    font-size: 20px;
+    line-height: 25px;
+}
+.texteVendre span{
+    font-weight: bold;
+}
