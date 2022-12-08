@@ -4,6 +4,7 @@ import "./banner.css";
 interface BannerProps {
   title: string;
   image: string
+  style?: void
 }
 
 const Banner = ({ title, image }: BannerProps) => (

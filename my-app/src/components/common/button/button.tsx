@@ -7,7 +7,6 @@ interface ButtonProps {
   className?: string;
   link: string;
   noBg?: boolean;
-  onClick?: () => void;
   type?: "button" | "submit" | "reset";
 }
 

@@ -14,7 +14,7 @@ const Contact = ({ img }: PropsWithChildren<ContactProps>) => (
       backgroundPosition: "center",
     }}
   >
-      <ContactCard title="Vous souhaitez vendre votre bien ?" />
+      <ContactCard/>
   </div>
 );
 

@@ -12,7 +12,7 @@ const estimationCard = ({ title, text }: PropsWithChildren<ButtonProps>) => (
     <h2>{title}</h2>
     <p>{text}</p>
     <div className="estimationAction">
-     <Button title="Estimer mon bien" link="" />
+     <Button title="Estimer mon bien" link="/estimez-votre-bien" />
     </div>
   </div>
 );

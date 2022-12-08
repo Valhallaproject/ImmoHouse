@@ -7,6 +7,7 @@ import Contact from "./pages/contact";
 import Agence from "./pages/agence";
 import Vendre from "./pages/vendre";
 import NousChoisir from "./pages/nousChoisir";
+import Estimation from "./pages/estimation";
 
 
 
@@ -22,6 +23,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/agence" element={<Agence />} />
           <Route path="/pourquoi-nous-choisir" element={<NousChoisir />} />
+          <Route path="/estimez-votre-bien" element={<Estimation />} />
 
         </Routes>
       </Router>

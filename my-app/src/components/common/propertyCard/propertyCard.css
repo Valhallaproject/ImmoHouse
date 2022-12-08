@@ -1,6 +1,11 @@
 .propertyCard{
     width: 30%;
     margin-bottom: 50px;
+    transition: all .5s;
+
+}
+.propertyCard:hover{
+    transform: scale(0.95);
 }
 .propertyImage{
     height: 300px;
