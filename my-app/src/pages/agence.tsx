@@ -16,7 +16,7 @@ function agence() {
   const state = location.state.cards;
 
   return (
-    <div>
+    <div id={state.ville}>
       <Header />
       <Banner title="ImmoHouse" image="assets/banner.webp" />
       <div className="agence">

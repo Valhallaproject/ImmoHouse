@@ -2,7 +2,7 @@ import React, { PropsWithChildren } from "react";
 import Arrow from "./../../../assets/arrow.png";
 import "./cardLink.css";
 import { Link } from 'react-router-dom';
-
+import { HashLink  } from 'react-router-hash-link';
 interface CardLinkProps {
   img: string;
   title: string;
@@ -10,7 +10,7 @@ interface CardLinkProps {
 }
 
 const CardLink = ({ title, img, link }: PropsWithChildren<CardLinkProps>) => (
-<Link to={link} className="cardLink" 
+<HashLink to={link} className="cardLink" 
     style={{
         backgroundImage: `url(" ${img} ")`,
     }}>
@@ -23,7 +23,7 @@ const CardLink = ({ title, img, link }: PropsWithChildren<CardLinkProps>) => (
       <img src={Arrow} alt=""/>
     </div>
   
-  </div>  </Link>
+  </div>  </HashLink>
 );
 
 export default CardLink;

@@ -14,3 +14,16 @@
 .texteVendre span{
     font-weight: bold;
 }
+
+@media screen and (max-width: 1024px) {
+    .texteVendre{
+        padding: 100px 5% 100px 5%;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    .texteVendre p{
+        font-size: 16px;
+        line-height: 20px;
+    }
+  }
+  

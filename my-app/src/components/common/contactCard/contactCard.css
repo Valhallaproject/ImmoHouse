@@ -12,7 +12,7 @@
     font-size: 28px;
 }
 .contactSubmit{
-    width: 50%;
+    width: 60%;
     color: white;
     background-color: #444444;
     border-color: #444444;
@@ -90,4 +90,54 @@
     }
     .popup-button{
         margin-top: 25px;
+    }
+
+    @media screen and (max-width : 1024px){
+        .contactCard{
+            width: 50%;
+        }
+        .inputPopupContact{
+            width: 45%;
+        }
+
+        .popup-body {
+        left: 10%;
+        right: 10%;
+        bottom: 25%;
+        }
+        .popup-body-validation {
+        left: 15%;
+        right: 15%;
+        }
+    
+    
+    }
+    @media screen and (max-width : 500px){
+        .contactCard{
+            width: 80%;
+            margin: 0 auto;
+        }
+        .contactSubmit{
+            width: 80%;
+        }
+        .popup-body {
+        bottom: 18%;
+        top: 20%;
+        }
+    
+        .popup-input{
+            flex-direction: column;
+        }
+        .inputPopupContact{
+            width: 100%;
+        }
+        .popup-body-validation {
+            left: 5%;
+            right: 5%;
+            }
+            .popup-header{
+               font-size: 20px !important;
+            }
+    
+    
     }

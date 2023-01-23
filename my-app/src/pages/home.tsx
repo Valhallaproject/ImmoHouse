@@ -12,7 +12,7 @@ import Footer from "../components/common/footer/footer";
 
 function home() {
   return (
-    <div>
+    <div id="container">
       <Header />
       <Banner title="ImmoHouse" image="assets/banner.webp" />
       <Search />

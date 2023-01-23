@@ -10,7 +10,7 @@ import Estimation from '../components/home/estimation/estimation';
 
 function acheter() {
   return (
-    <div>
+    <div id="biens-en-vente">
       <Header />
       <Banner title="Biens en vente"  image="assets/location.webp"/>
       <Search />

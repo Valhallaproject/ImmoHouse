@@ -1,75 +1,77 @@
-
 .mobilNav {
-    display: none;
-  }
+  display: none;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px;
+  height: 100px;
+  z-index: 1;
+  position: relative;
+}
+.items {
+  display: flex;
+  padding: 0;
+}
+.items a {
+  width: 150px;
+  text-align: center;
+  font-size: 21px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #171717;
+}
+.active a {
+  border-bottom: 4px solid #da0037;
+}
+
+@media screen and (max-width: 1024px) {
   nav {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 40px;
-    height: 100px;
-    z-index: 1;
-    position: relative;
+    padding-right: 0%;
+    padding-top: 10px;
+  }
+  .mobilNav {
+    display: block;
+    z-index: 2;
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    right: 5%;
+  }
+  .mobilNav:hover {
+    background-color: transparent;
+  }
+  .mobilNav img {
+    width: 40px;
+  }
+  .navItems {
+    display: none;
+    background: #000 !important;
+    width: 100%;
   }
   .items {
     display: flex;
-    padding: 0;
+    flex-direction: column;
+    margin-top: 250px;
+    justify-content: space-around;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    align-items: center;
   }
-  .items a {
-    width: 150px;
-    text-align: center;
-    font-size: 21px;
-    font-weight: bold;
-    text-transform: uppercase;
-    font-weight: bold;
-    color: #171717;
+  .active {
+    display: block;
+    position: relative;
+    right: 0;
   }
-  .active a {
-    border-bottom: 4px solid #DA0037;
+  .items .active {
+    border-bottom: 4px solid #da0037 !important;
   }
-  
-  @media screen and (max-width: 1024px) {
-    nav {
-      padding-right: 0%;
-    }
-    .mobilNav {
-      display: block;
-      z-index: 2;
-      background: none;
-      border: none;
-      cursor: pointer;
-      position: absolute;
-      right: 5%;
-      top: 60px;
-    }
-    .mobilNav img {
-      width: 40px;
-    }
-    .navItems {
-      display: none;
-      background-color: #fff;
-      background: #000;
-    }
-    .items{
-      display: flex;
-      flex-direction: column;
-margin-top: 200px;
-    }
-    .active {
-      display: block;
-      height: 100vh;
-      position: absolute;
-      top: 0;
-      right: 0;
-      background-color: transparent;
-    }
-    .active a {
-      border-bottom: 3px solid white;
-    }
-    a {
-      padding-right: 35px;
-    }
-    
-    
+  a {
+    margin-top: 15px;
+    color: white !important;
+    border-bottom: 4px solid transparent !important;
   }
-  
+}

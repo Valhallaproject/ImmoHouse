@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 import axios from "axios";
 import AgenceCard from "../agenceCard/agenceCard";
 import "./agenceList.css"
@@ -26,14 +26,14 @@ function agenceList() {
 
   const showAgence = cards.map((cards) => {
     return (
-        <Link to="/agence"  state={{cards}}  className="agenceCard">
+        <HashLink to={{pathname:"/agence", hash:`#${cards.ville}`}} state={{cards}}  className="agenceCard">
         <AgenceCard
           code={cards.code_postal}
           image={"http://localhost:8055/assets/" + cards.image}
           phone={cards.telephone}
           city={cards.ville}
           adresse={cards.adresse}
-        /></Link>
+        /></HashLink>
         
     );
   });

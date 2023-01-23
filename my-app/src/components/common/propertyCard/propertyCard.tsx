@@ -9,7 +9,7 @@ interface PropertyCardProps {
 }
 
 const PropertyCard = ({ image, city, prix, name }: PropertyCardProps) => (
-  <div className="propertyCard">
+  <div>
       <div className="propertyImage"
           style={{
             backgroundImage: `url(" ${image} ")`,
@@ -19,7 +19,7 @@ const PropertyCard = ({ image, city, prix, name }: PropertyCardProps) => (
     >
           <p>{prix} €</p>
       </div>
-      <div className="propertyInfo">
+      <div className="propertyCardInfo">
           <h3>{name}</h3>
           <p>{city}</p>
       </div>

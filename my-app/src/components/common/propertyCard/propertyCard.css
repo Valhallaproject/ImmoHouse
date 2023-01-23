@@ -19,6 +19,22 @@
     top: 80%;
     position: relative;
 }
-.propertyInfo h3{
+.propertyCardInfo h3, p{
     margin: 0;
+    color: #444444;
+}
+
+@media screen and (max-width : 1024px){
+    .propertyCard{
+        width: 45%; 
+    }   
+}
+@media screen and (max-width : 600px){
+    .propertyCard{
+        width:100%;
+    }
+    .propertyImage{
+        height: 200px;
+    }
+
 }

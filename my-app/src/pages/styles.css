@@ -26,9 +26,14 @@
 }
 .agenceRight p {
   font-size: 20px;
+  margin: 20px;
 }
 .agenceRight h3 {
   font-size: 24px;
+  margin: 20px;
+}
+.phoneCard{
+  margin: 20px;
 }
 .agenceHoraire {
   text-align: center;
@@ -51,4 +56,41 @@
   margin-left: 10%;
   color: #444444;
   margin-bottom: 40px;
+}
+
+
+
+.test{
+  z-index: 1;
+  position: relative;
+}
+
+
+
+@media  screen and (max-width : 1024px) {
+  .contenu{
+    margin-top: 100vh;
+  }
+  .agence {
+    margin-top: 800px !important;
+  }
+  
+}
+@media  screen and (max-width : 600px) {
+  .contenu h1{
+    font-size: 25px;
+  }
+  .agence{
+    flex-direction: column;
+  }
+  .agenceLeft, .agenceRight{
+    width: 100%;
+    padding: 0%;
+    margin-bottom: 20px;
+  }
+  .agenceHoraire p {
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
 }

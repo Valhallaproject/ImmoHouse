@@ -28,3 +28,15 @@
     width: 100%;
     margin-top: 15px;
 }
+
+@media screen and (max-width : 1024px){
+    .agenceCard{
+        width: 38%;
+    }
+    
+}
+@media screen and (max-width : 600px){
+    .agenceCard{
+        width: 60%;
+    }
+}

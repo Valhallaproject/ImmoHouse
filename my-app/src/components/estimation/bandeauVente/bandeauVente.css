@@ -1,20 +1,40 @@
-.bandeauVente{
-width: 100%;
- min-height: 350px;
- display: flex;
- justify-content: space-between;
+.bandeauVente {
+  width: 100%;
+  min-height: 350px;
+  display: flex;
+  justify-content: space-between;
   background-color: #fff;
   padding: 100px 0;
- }
- .bandeauVenteImg{
-    width: 35%;
-    margin-right: 12%;
-    border-radius: 15px;
 }
-.bandeauVenteInfo{
-text-align: center;
-    width: 35%;
-    margin-left: 12%;
-    color: #444444;
-    font-size: 20px;
+.bandeauVenteImg {
+  width: 35%;
+  margin-right: 12%;
+  border-radius: 15px;
+}
+.bandeauVenteInfo {
+  text-align: center;
+  width: 35%;
+  margin-left: 12%;
+  color: #444444;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+  .bandeauVente {
+    flex-direction: column-reverse;
+  }
+  .bandeauVenteImg {
+    width: 85%;
+    height: 300px;
+    margin: 0 auto;
+  }
+  .bandeauVenteInfo {
+    width: 85%;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 500px) {
+  .bandeauVenteInfo {
+    font-size: 16px;
+  }
 }

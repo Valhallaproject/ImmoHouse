@@ -5,6 +5,7 @@
     top: 0;
     display: flex;
     clip-path: polygon(0% 0%, 100% 0, 100% 87%, 31% 100%, 0 86%);
+    background-color: #EDEDED;
 }
 .bannerTitle{
     text-align: center;
@@ -14,4 +15,18 @@
     font-weight: bold;
     color: #DA0037;
     padding-top: 200px;
+}
+
+@media screen and (max-width : 1024px){
+    .banner {
+        min-height: 100vh;
+    }
+}
+@media screen and (max-width : 500px){
+    .bannerTitle{
+        font-size: 40px;
+        padding-top: 100px;
+        width: 80%;
+    }
+
 }

@@ -11,7 +11,7 @@ import "./styles.css"
 
 function estimation() {
   return (
-    <>
+    <div id="container">
       <Header />
       <Banner
         title="Nous réalisons gratuitement votre estimation"
@@ -38,7 +38,7 @@ function estimation() {
       />
 
       <Footer />
-    </>
+    </div>
   );
 }
 

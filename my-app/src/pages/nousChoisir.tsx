@@ -8,7 +8,7 @@ import Services from "../components/nousChoisir/services/services";
 
 function nousChoisir() {
   return (
-    <div>
+    <div id="container">
       <Header />
       <Banner title="Pourquoi nous choisir ?" image="assets/nousChoisir.jpeg" />
       <div className="contenu">

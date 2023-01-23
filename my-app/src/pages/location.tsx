@@ -10,9 +10,9 @@ import Estimation from '../components/home/estimation/estimation';
 
 function location() {
   return (
-    <div>
+    <div className="container" id="container">
       <Header />
-      <Banner title="Biens en vente" image="assets/location.webp"/>
+      <Banner title="Biens en location" image="assets/location.webp"/>
       <Search />
       <PropertyList />
       <Estimation img="assets/estimation.webp" />

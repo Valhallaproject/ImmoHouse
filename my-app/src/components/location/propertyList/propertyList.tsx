@@ -67,7 +67,7 @@ function propertyList() {
         </select>
       </div>
 
-      <div className="propertyCardList">{showCards}</div>
+      <div className="propertyCard">{showCards}</div>
     </div>
   );
 }

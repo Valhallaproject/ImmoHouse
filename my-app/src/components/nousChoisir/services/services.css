@@ -11,3 +11,16 @@
     margin: 0 auto;
     justify-content: center;
 }
+
+@media screen and (max-width : 1024px){
+    .services{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .iconsList{
+        width: 90% !important;
+    }   
+}
+@media screen and (max-width : 600px){
+    
+}

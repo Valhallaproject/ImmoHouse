@@ -28,3 +28,31 @@
 .proposRight ul{
     font-size: 20px;
 }
+
+@media screen and (max-width : 1024px){
+    .propos {
+        display: block;
+        padding-left: 5%;
+        padding-right: 5%;
+        margin-top: 25px;
+    }
+    .proposLeft{
+        display: none;
+    }
+    .proposRight{
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width : 500px){
+    .proposRight h2{
+        font-size: 30px;
+    }
+    .proposRight p{
+        font-size: 16px;
+        line-height: 25px;
+    }    
+}
+
+
+

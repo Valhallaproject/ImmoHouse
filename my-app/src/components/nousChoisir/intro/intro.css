@@ -18,3 +18,22 @@
     width: 45%;
 
 }
+
+@media screen and (max-width : 1024px){
+    .intro{
+        flex-direction: column;
+        width: 90%;
+    }
+    .introText{
+        width: 90%;
+        margin: 0 auto;
+        text-align: justify;
+    }
+}
+@media screen and (max-width : 500px){
+    .introText{
+        width: 95%;
+        font-size: 16px;
+    }
+
+}

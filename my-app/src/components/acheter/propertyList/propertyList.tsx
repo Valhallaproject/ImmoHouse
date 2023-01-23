@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import PropertyCard from "../../common/propertyCard/propertyCard";
 import "./propertyList.css";
+import "./../../common/propertyCard/propertyCard.css"
+import { HashLink } from 'react-router-hash-link';
 
 function propertyList() {
   const [card, setCard] = useState<any[]>([]);
@@ -16,13 +18,15 @@ function propertyList() {
   }
   useEffect(() => {
     axios
-      .get(`http://localhost:8055/items/product?fields=title,thumbnail,price,city.name&filter[condition]=1${type}`, {
+      .get(`http://localhost:8055/items/product?fields=title,thumbnail,description,cave,rooms,bedrooms,id,chauffage,images.directus_files_id,surface,price,city.name&filter[condition]=1${type}`, {
         headers: {
           Accept: "*/*",
         },
       })
       .then((response) => {
         setCard(response.data.data);
+        console.log(response.data.data);
+        
       });
   }, [selectedType]);
 
@@ -30,26 +34,27 @@ function propertyList() {
     setSelectedType(event.target.value);
   };
 
-  let cards = card;
+  let sale = card;
 
   const handleChangePrice = (event: React.ChangeEvent<HTMLSelectElement>) => {
     setSelectedPrice(event.target.value);
   };
 
   if(selectedPrice === "b"){
-    cards.sort((a,b) =>( a.price> b.price ? 1 : -1 ))
+    sale.sort((a,b) =>( a.price> b.price ? 1 : -1 ))
   }else if(selectedPrice === "c"){
-    cards.sort((a,b) =>( a.price> b.price ? -1 : 11 ))
+    sale.sort((a,b) =>( a.price> b.price ? -1 : 11 ))
   }
 
-  const showCards = cards.map((cards) => {
+  const showCards = sale.map((sale) => {
     return (
+      <HashLink to={{pathname:"/vente", hash:`#${sale.title}`}} className="propertyCard" state={{sale}}>
       <PropertyCard
-        name={cards.title}
-        image={"http://localhost:8055/assets/" + cards.thumbnail}
-        prix={cards.price}
-        city={cards.city.name}
-      />
+        name={sale.title}
+        image={"http://localhost:8055/assets/" + sale.thumbnail}
+        prix={sale.price}
+        city={sale.city.name}
+      /></HashLink>
     );
   });
   return (

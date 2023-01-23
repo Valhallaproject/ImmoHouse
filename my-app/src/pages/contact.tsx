@@ -7,7 +7,7 @@ import AgenceList from "../components/agence/agencesList/agenceList";
 
 function contact() {
   return (
-    <div>
+    <div id="container">
       <Header />
       <Banner
         title="À la rencontre de nos équipes,

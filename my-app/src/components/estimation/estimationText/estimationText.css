@@ -13,16 +13,38 @@ justify-content: space-between;
     margin-left: 10%;
     border-radius: 15px;
 }
-.estimationTextInfo{
+.estimationTextInfo {
     width: 35%;
     margin-right: 10%;
     margin-top: -90px;
     margin-bottom: 100px;
-    color: #EDEDED;
     font-size: 20px;
 }
 .estimationTextInfo h2{
     font-size: 28px;
     color: #444444;
     margin-bottom: 45px;
+}
+.estimationTextInfo p{
+    color: #EDEDED;
+}
+
+@media screen and (max-width : 1024px){
+    .estimationTextImg{
+        display: none;
+    }
+    .estimationTextInfo {
+        width: 80%;
+        margin: 0 auto;
+        margin-top: -100px;
+        margin-bottom: 100px;
+    
+    }
+}
+@media screen and (max-width : 500px){
+    .estimationTextInfo {
+       font-size: 16px;
+    
+    }
+
 }

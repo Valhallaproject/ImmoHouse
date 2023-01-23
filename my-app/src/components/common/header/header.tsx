@@ -1,4 +1,4 @@
-import React,{ useState } from "react";
+import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import Burger from "./../../../assets/menu.png";
 import Close from "./../../../assets/close-white.png";
@@ -19,27 +19,29 @@ const Navbar = () => {
     <nav id="nav">
       <div className="navItems">
         <ul className="items">
-          <NavLink to="/"  >
-          <Link to="/">Accueil</Link>
-        </NavLink>
-        <NavLink to="/vendre" >
-          <Link to="/vendre">Vendre</Link>
-        </NavLink>
-        <NavLink to="/acheter">
-          <Link to="/acheter">Acheter</Link>
-        </NavLink>
-        <NavLink to="/location">
-          <Link to="/location">Louer</Link>
-        </NavLink>
-        <NavLink to="/contact">
-          <Link to="/contact">Contact</Link>
-        </NavLink>
-      </ul>
-    </div><button className="mobilNav">
+          <NavLink to="/">
+            <Link to="/">Accueil</Link>
+          </NavLink>
+          <NavLink to="/vendre">
+            <Link to="/vendre">Vendre</Link>
+          </NavLink>
+          <NavLink to="/acheter">
+            <Link to="/acheter">Acheter</Link>
+          </NavLink>
+          <NavLink to="/louer">
+            <Link to="/louer">Louer</Link>
+          </NavLink>
+          <NavLink to="/contact">
+            <Link to="/contact">Contact</Link>
+          </NavLink>
+        </ul>
+      </div>
+      <button className="mobilNav">
         <img
           onClick={toggleMobileNav}
           src={mobileNavIcon}
-          alt="mobileNavIcon" />
+          alt="mobileNavIcon"
+        />
       </button>
     </nav>
   );

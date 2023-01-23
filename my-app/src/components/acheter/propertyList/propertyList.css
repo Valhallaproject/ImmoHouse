@@ -12,3 +12,22 @@
     flex-wrap: wrap;
 
 }
+
+@media screen and (max-width : 1024px){
+    .propertySelect{
+        display: flex;
+    }
+}
+@media screen and (max-width : 500px){
+    .propertyList{
+        margin-top: 300px;
+    }
+    .propertyList select{
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+    .propertySelect{
+        flex-direction: column;
+    }
+
+}

@@ -13,3 +13,28 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
+.chiffre p{
+    margin-bottom: 10px;
+
+}
+
+@media screen and (max-width : 1024px){
+    .chiffre{
+        width: 50%;
+        margin-bottom: 50px;
+    }
+    .chiffre p{
+        line-height: 25px;
+    }
+    
+}
+@media screen and (max-width : 500px){
+    .chiffres h2{
+        font-size: 30px;
+    }
+    .chiffre{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+}
+
