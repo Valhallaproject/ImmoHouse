@@ -18,7 +18,6 @@ function vente() {
     )
   })
     
-  console.log(vignettes);
 
   return (
     <div id={state.title}>

@@ -1,5 +1,6 @@
 import React, { PropsWithChildren } from "react";
 import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 import "./button.css"
 
 interface ButtonProps {
@@ -16,14 +17,14 @@ const Button = ({
   link,
   type,
 }: PropsWithChildren<ButtonProps>) => (
-  <Link to={link}>
+  <HashLink to={link}>
     <button
       type={type || "button"}
       className={className}
     >
       {title}
     </button>
-  </Link>
+  </HashLink>
 );
 
 export default Button;

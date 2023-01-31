@@ -10,11 +10,14 @@
 
 @media screen and (max-width : 1024px){
     .agenceList{
-      margin-top: 700px !important;
+      margin-top:1100px !important;
     }
     
 }
 @media screen and (max-width : 600px){
+    .agenceList{
+        margin-top:600px !important;
+      }
     .agenceCard{
         width: 60%;
     }

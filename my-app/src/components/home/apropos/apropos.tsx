@@ -24,7 +24,7 @@ function apropos() {
                 <li>• Investissement</li>
             </ul>
             <p>Choisir notre agence, c'est être accompagné de A à Z dans le projet transactionnel qui vous attend. Faites le choix du sérieux et du sur-mesure en vous appuyant sur le talent de conseillers dédiés.</p>
-            <Button title="Nous contacter" link="/" />
+            <Button title="Nous contacter" link="contact#container" />
 
         </div>
     </div>

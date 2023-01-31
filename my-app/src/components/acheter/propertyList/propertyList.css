@@ -17,10 +17,13 @@
     .propertySelect{
         display: flex;
     }
+    .propertyList{
+        margin-top: 500px;
+    }
 }
 @media screen and (max-width : 500px){
     .propertyList{
-        margin-top: 300px;
+        margin-top: 200px;
     }
     .propertyList select{
         margin-right: 0px;

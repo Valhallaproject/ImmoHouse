@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState } from "react";
+import PropertySlider from "./propertySlider"
 import "./property.css";
 
 interface PropertyProps {
@@ -21,9 +22,10 @@ const Property = ({thumbnail, images, surface, city, prix, chauffage, name, desc
       <div className="thumbnail">
         <img src={thumbnail} alt="" />
       </div>
-      <div className="gallerie">
-        {images}
-      </div>
+      <PropertySlider />
+
+
+
     </div>
     <div className="titleProperty">
       <p>{name}</p>
