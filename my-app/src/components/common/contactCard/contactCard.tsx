@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { ChangeEvent, useState } from "react";
 import Input from "../input/input";
 import "./contactCard.css";
 
@@ -44,36 +44,37 @@ function contactCard() {
                 <Input
                   id="name"
                   name="name"
-                  value=""
                   placeholder="Nom"
                   type="text"
-                  className="inputPopupContact"
-                />
+                  className="inputPopupContact" value={undefined} onChange={function (event: ChangeEvent<HTMLInputElement>): void {
+                    throw new Error("Function not implemented.");
+                  } }                />
                 <Input
                   id="name"
                   name="name"
-                  value=""
                   placeholder="Prénom"
                   type="text"
-                  className="inputPopupContact"
-                />
+                  className="inputPopupContact" value={undefined} onChange={function (event: ChangeEvent<HTMLInputElement>): void {
+                    throw new Error("Function not implemented.");
+                  } }                />
               </div>
               <div className="popup-input">
                 <Input
                   id="name"
                   name="name"
-                  value=""
                   placeholder="Téléphone"
                   type="text"
-                  className="inputPopupContact"
-                />
+                  className="inputPopupContact" value={undefined} onChange={function (event: ChangeEvent<HTMLInputElement>): void {
+                    throw new Error("Function not implemented.");
+                  } }                />
                 <Input
                   id="name"
                   name="name"
-                  value=""
                   placeholder="E mail"
                   type="text"
-                  className="inputPopupContact"
+                  className="inputPopupContact" value={undefined} onChange={function (event: ChangeEvent<HTMLInputElement>): void {
+                    throw new Error("Function not implemented.");
+                  } }                
                 />
               </div>
               <textarea

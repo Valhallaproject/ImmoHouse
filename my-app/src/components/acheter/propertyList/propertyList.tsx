@@ -24,9 +24,7 @@ function propertyList() {
         },
       })
       .then((response) => {
-        setCard(response.data.data);
-        console.log(response.data.data);
-        
+        setCard(response.data.data);        
       });
   }, [selectedType]);
 

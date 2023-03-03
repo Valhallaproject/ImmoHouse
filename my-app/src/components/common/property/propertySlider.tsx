@@ -18,7 +18,6 @@ const FullScreenSlider = () => {
       );
     }
   );
-  console.log({ vignettes });
 
   const [currentIndex, setCurrentIndex] = useState(0);
 

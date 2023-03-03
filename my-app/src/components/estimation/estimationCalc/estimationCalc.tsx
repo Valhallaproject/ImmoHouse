@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { ChangeEvent, useState } from "react";
 import Input from "../../common/input/input";
 import "./estimationCalc.css";
 
@@ -97,35 +97,35 @@ function estimationCalc() {
             <Input
               id="name"
               name="name"
-              value=""
               placeholder="Nom "
               type="text"
-              className="estimationInput"
-            />
+              className="estimationInput" value={undefined} onChange={function (event: ChangeEvent<HTMLInputElement>): void {
+                throw new Error("Function not implemented.");
+              } }            />
             <Input
               id="name"
               name="name"
-              value=""
               placeholder="Prénom "
               type="text"
-              className="estimationInput"
-            />
+              className="estimationInput" value={undefined} onChange={function (event: ChangeEvent<HTMLInputElement>): void {
+                throw new Error("Function not implemented.");
+              } }            />
             <Input
               id="name"
               name="name"
-              value=""
               placeholder="Téléphone "
               type="text"
-              className="estimationInput"
-            />
+              className="estimationInput" value={undefined} onChange={function (event: ChangeEvent<HTMLInputElement>): void {
+                throw new Error("Function not implemented.");
+              } }            />
             <Input
               id="name"
               name="name"
-              value=""
               placeholder="E mail "
               type="mail"
-              className="estimationInput"
-            /><button onClick={handleOpen} className="estimationFormBtn">Valider l'estimation</button>
+              className="estimationInput" value={undefined} onChange={function (event: ChangeEvent<HTMLInputElement>): void {
+                throw new Error("Function not implemented.");
+              } }            /><button onClick={handleOpen} className="estimationFormBtn">Valider l'estimation</button>
           </div>
           {openValidation && (
         <div>

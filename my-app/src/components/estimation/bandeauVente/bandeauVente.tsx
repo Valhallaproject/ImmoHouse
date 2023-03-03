@@ -13,7 +13,7 @@ const BandeauVente = ({ image }: BandeauVenteProps) => (
       <p>
       ImmoHouse met à votre disposition son fichier qualifié et son savoir-faire issu de plus de 40 ans d’expérience. Ainsi, vous pouvez compter sur l'appui d'une équipe connaissant parfaitement son métier et le marché local durant l'ensemble de votre transaction. Vous avez une question d'ordre commercial, juridique ou fiscal ? Nos conseillers vous guident et apportent des réponses à vos interrogations
       </p>
-      <Button title="Vendre avec nous" link="/pourquoi-nous-choisir" />
+      <Button title="Vendre avec nous" link="/pourquoi-nous-choisir#container" />
     </div>
 
     <div

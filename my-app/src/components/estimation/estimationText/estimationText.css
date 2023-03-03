@@ -42,9 +42,11 @@ justify-content: space-between;
     }
 }
 @media screen and (max-width : 500px){
+    .estimationText h2{
+        font-size: 22px;
+    }
     .estimationTextInfo {
        font-size: 16px;
-    
     }
 
 }

@@ -96,6 +96,9 @@
     }
 }
 @media screen and (max-width : 600px){
+    .propertyInfo{
+        margin-top: 250px !important;
+    }
     .image{
         flex-direction: column;
     }
@@ -106,5 +109,8 @@
     .thumbnail img, .gallerie img{
         width: 100%;
         height: 200px;
+    }
+    .propertyDescriptif{
+        height: 400px;
     }
 }
