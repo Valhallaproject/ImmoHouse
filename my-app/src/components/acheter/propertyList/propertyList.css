@@ -23,7 +23,7 @@
 }
 @media screen and (max-width : 500px){
     .propertyList{
-        margin-top: 200px;
+        margin-top: 350px;
     }
     .propertyList select{
         margin-right: 0px;

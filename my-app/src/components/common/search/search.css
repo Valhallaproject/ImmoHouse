@@ -1,7 +1,7 @@
 .search {
   background: rgba(255, 255, 255, 0.7);
   height: 80px;
-  width: 80%;
+  width: 40%;
   z-index: 0;
   position: relative;
   margin: 0 auto;
@@ -13,17 +13,26 @@
 }
 .select,
 .input {
-  width: 15%;
+  width: 35%;
   background-color: #ededed;
   border: #444444 solid 1px;
   height: 40px;
   border-radius: 5px;
   padding: 0 0 0 10px;
 }
+.submit{
+  width: 35%;
+}
 .submit:hover {
   color: #444;
   background-color: #fff;
   transition: all 0.5s;
+}
+.submit a{
+  color: #fff;
+}
+.submit a:hover{
+  color: #444;
 }
 
 @media screen and (max-width: 1024px) {
@@ -43,6 +52,7 @@
     margin-top: 25px;
     margin-bottom: 25px;
   }
+  
 }
 @media screen and (max-width: 500px) {
   .search {

@@ -16,6 +16,7 @@ function propertyList() {
   } else if (selectedType !== "1") {
     type = `&filter[type]=${selectedType}`;
   }
+  
   useEffect(() => {
     axios
       .get(`http://localhost:8055/items/product?fields=title,thumbnail,description,cave,rooms,bedrooms,id,chauffage,images.directus_files_id,surface,price,city.name&filter[condition]=1${type}`, {
